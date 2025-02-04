@@ -1,0 +1,53 @@
+.courses-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+  }
+  
+  .course-card {
+    display: flex;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .course-image {
+    width: 200px;
+    height: auto;
+  }
+  
+  .course-info {
+    padding: 20px;
+    flex: 1;
+  }
+  
+  .course-info h3 {
+    margin: 0 0 10px;
+  }
+  
+  .course-info p {
+    margin: 5px 0;
+  }
+  
+  .rating {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .badge {
+    background: orange;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+  
+  .price {
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  .instructor-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .instructor-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #ddd;
+  }
+  
+  .details-section {
+    text-align: center;
+  }
+  
+  .title {
+    color: #555;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  
+  .name {
+    margin: 5px 0;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .role {
+    margin: 5px 0;
+    color: #777;
+    font-size: 18px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 50px;
+  }
+  
+  .stat h2 {
+    margin: 0;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .stat p {
+    margin: 0;
+    color: #777;
+    font-size: 14px;
+  }
+  
+  .section-heading {
+    font-size: 20px;
+    margin: 20px 0 10px;
+    color: #333;
+  }
+  
+  .description {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+    margin: 10px 0;
+  }
+  
+  .social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .social-button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .social-button.website {
+    background-color: #4caf50;
+  }
+  
+  .social-button.x {
+    background-color: #00aced;
+  }
+  
+  .social-button.facebook {
+    background-color: #3b5998;
+  }
+  
+  .social-button.linkedin {
+    background-color: #0077b5;
+  }
+  

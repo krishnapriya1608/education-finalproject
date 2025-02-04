@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* background:linear-gradient(rgb(98,78,98),rgb(67,87,66)); */
+  }
+  
+  
+  .App {
+    padding: 20px;
+  }
+  
+  .content h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    color: gray;
+    margin-bottom: 20px;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .tabs span {
+    cursor: pointer;
+    padding: 5px 10px;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .tabs .active-tab {
+    border-bottom: 2px solid black;
+  }
+  
+  .course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  

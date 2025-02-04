@@ -1,0 +1,65 @@
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Make it take up full viewport height */
+    width: 375px; /* Approximate width of an iPhone */
+    margin: 0 auto; /* Center the container */
+    border: 1px solid #ccc; /* Optional border */
+    background-color: #dbe4e7; /* Light background */
+  }
+  /* body{
+    background: linear-gradient(rgb(133, 154, 157), rgb(133, 92, 180));  } */
+  
+  .chat-header {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .message-list {
+    flex-grow: 1; /* Allow messages to take up available space */
+    overflow-y: auto; /* Enable scrolling if messages overflow */
+    padding: 10px;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 70%; /* Prevent messages from taking full width */
+    clear: both; /* Important for proper float clearing */
+  }
+  
+  .message.sent {
+    background-color: #3b82f6; /* Blue for sent messages */
+    color: white;
+    float: right; /* Align sent messages to the right */
+  }
+  
+  .message.received {
+    background-color: #e5e7eb; /* Light gray for received messages */
+    float: left; /* Align received messages to the left */
+  }
+  
+  .chat-input {
+    padding: 10px;
+    border-top: 1px solid #eee;
+    display: flex;
+    align-items: center;
+  }
+  
+  .chat-input input {
+    flex-grow: 1;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+  .chat-input button {
+      padding: 8px 12px;
+      margin: 0 5px;
+      border: none;
+      border-radius: 5px;
+      background-color: #eee;
+      cursor: pointer;
+  }

@@ -1,0 +1,207 @@
+/* Global Styles */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f8;
+}
+
+.dasshboard {
+  display: grid;
+  grid-template-columns: 200px 1fr 300px;
+  height: 100vh;
+  width: 1800px;
+}
+/* Calendar Section */
+.calendar-section {
+  margin-top: 20px;
+  background-color: #6c63ff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-section h3 {
+  color: #6c63ff;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Calendar Container */
+.calendar-container {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  max-width: 300px;
+  margin-left: auto;
+
+  margin-right: auto;
+}
+
+.calendar-container h3 {
+  text-align: center;
+  color: #6c63ff;
+  font-size: 1.4em;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* Calendar Table */
+.calendar {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  margin-right: 970px;
+
+}
+
+.calendar thead th {
+  color: #6c63ff;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.calendar tbody td {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 970px;
+
+}
+
+.calendar tbody td.date {
+  background-color: #f4f6f8;
+  color: #6c63ff;
+}
+
+.calendar tbody td.date:hover {
+  background-color: #e0e0ff;
+  color: #6c63ff;
+}
+
+.calendar tbody td.highlight {
+  background-color: #6c63ff;
+  color: white;
+  font-weight: bold;
+}
+
+.calendar tbody td.empty {
+  background-color: transparent;
+  color: transparent;
+  cursor: default;
+}
+
+
+
+
+.sidebar {
+  background-color: #6c63ff;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar h2.logo {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.sidebar nav ul,
+.sidebar footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar nav ul li,
+.sidebar footer ul li {
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+/* Main Content */
+.main {
+  padding: 20px;
+  background-color: white;
+}
+
+.main header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filters button {
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.courses {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.course {
+  display: flex;
+  align-items: center;
+  background-color: #f4f6f8;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.course .icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.course.purple .icon {
+  background-color: #6c63ff;
+}
+
+.course.pink .icon {
+  background-color: #ff63c3;
+}
+
+.course.blue .icon {
+  background-color: #63bfff;
+}
+
+/* Right Sidebar */
+.right-sidebar {
+  background-color: #6c63ff;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+
+.online-users ul {
+  list-style: none;
+  padding: 0;
+}
+
+.online-users li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+

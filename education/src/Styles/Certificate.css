@@ -1,0 +1,56 @@
+
+  
+  .certification-header h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .certification-issuers h3 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+  }
+  
+  .issuers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px;
+  }
+  
+  .issuer-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* Subtle shadow */
+  }
+  
+  .issuer-card h4 {
+    margin-bottom: 10px;
+  }
+  
+  .learners-count {
+      color: gray;
+      font-size: 0.9em;
+      margin-bottom: 10px;
+  }
+  .slider-controls{
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 10px;
+  }
+  .slider-button{
+      padding: 10px 20px;
+      border: none;
+      background-color: #eee;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  .slider-button:hover{
+      background-color: #ddd;
+  }
+  /* Add more styles as needed */
+  
+  @media(max-width: 768px){
+      .issuers-grid{
+          grid-template-columns: 1fr;
+      }
+  }

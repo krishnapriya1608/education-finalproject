@@ -1,0 +1,22 @@
+import React from "react";
+import "../Styles/Webcard.css";
+import { Button, Card } from "react-bootstrap";
+
+
+
+
+function WebCard({title,image,button}) {
+  return (
+    <Card style={{ width: '18rem',marginLeft:"50px" }}>
+    <Card.Img variant="top" src={image} />
+    <Card.Body>
+      <Card.Text>
+       {title}
+      </Card.Text>
+    </Card.Body>
+ 
+  </Card>
+  );
+}
+
+export default WebCard;

@@ -1,0 +1,92 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #1e1e2d; /* Dark background */
+    color: #ffffff; /* Text color */
+  }
+  
+  h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+  
+  p {
+    font-size: 0.9rem;
+    color: #b5b8c2;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .container.single-column {
+    grid-template-columns: 1fr;
+  }
+  
+  /* Card Styles */
+  .card {
+    background-color: #2f335a;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .card p {
+    margin-bottom: 1.5rem;
+    color: #b5b8c2;
+  }
+  
+  .card button {
+    background-color: #4e73df;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card button:hover {
+    background-color: #3a5db8;
+  }
+  
+  /* Progress Chart Section */
+  .progress-chart {
+    height: 200px;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #4e73df 0%, #1e1e2d 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+  }
+  

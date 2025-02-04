@@ -1,0 +1,113 @@
+.sideebar {
+    width: 20%;
+    background-color: #58589a;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6c63ff;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu-item {
+    padding: 15px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .menu-item.active,
+  .menu-item:hover {
+    background-color: #e0e0ff;
+    color: #6c63ff;
+  }
+  
+  .sidebar-footer {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .download-btn {
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .dashboard-content {
+    width: 80%;
+    padding: 20px;
+    background-color: #fff;
+    overflow-y: scroll;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .stat-card {
+    flex: 1;
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .stat-card.blue {
+    background-color: #6c63ff;
+  }
+  
+  .stat-card.purple {
+    background-color: #a46cf3;
+  }
+  
+  .stat-card.orange {
+    background-color: #f6a623;
+  }
+  
+  .main-section {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .time-spending,
+  .schedule,
+  .courses {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .schedule ul,
+  .courses ul {
+    list-style: none;
+    padding: 0;
+  }
+  

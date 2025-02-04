@@ -1,0 +1,19 @@
+.course-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .course-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .course-card h3 {
+    font-size: 1rem;
+    margin: 10px;
+    color: #333;
+  }
+  

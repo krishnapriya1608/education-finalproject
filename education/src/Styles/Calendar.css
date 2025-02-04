@@ -1,0 +1,135 @@
+/* General Calendar Container */
+.calendar {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #1f2533;
+    padding: 10px;
+    border-radius: 10px;
+    width: 380px;
+    margin: auto;
+    margin-left: 90px;
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .calendar-header h2 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .calendar-header p {
+    font-size: 14px;
+    color: #a0a3b1;
+  }
+  
+  .today-button {
+    background-color: #3d4db7;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .today-button:hover {
+    background-color: #4f61d9;
+  }
+  
+  .timeline {
+    position: relative;
+    padding-left: 10px;
+    border-left: 2px dashed #3d4db7;
+  }
+  
+  .timeline-marker {
+    position: absolute;
+   
+    width: 10px;
+    height: 10px;
+    background-color: #3d4db7;
+    border-radius: 50%;
+    border: 2px solid #fff;
+  }
+  
+  .timeline-time {
+   
+    
+    font-size: 12px;
+    color: #a0a3b1;
+    text-align: center;
+    width: 50px;
+  }
+  
+  .event-container {
+    position: relative;
+    margin-bottom: 50px;
+  }
+  
+  .event-card {
+    display: flex;
+    background-color:white;
+    border-radius: 10px;
+    padding: 3px;
+    align-items: center;
+    margin-left: 20px;
+    width: 85%;
+  }
+  .event-card:hover{
+    background-color: #3d4db7;
+  }
+  .event-card.highlighted {
+    background-color: #3d4db7;
+  }
+  
+  .event-details h3 {
+    margin: 0;
+    font-size: 16px;
+    color: rgb(70, 139, 168);
+  }
+  
+  .event-details p {
+    margin: 0;
+    font-size: 12px;
+    color: #161617ab;
+  }
+  
+  .event-end-time {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #a0a3b1;
+    display: block;
+  }
+  .today-dropdown{
+    background-color: #3d4db7;
+    border-radius: 10px;
+    color: white;
+    border-color: transparent;
+  }
+  .timeline-with-clock {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .clock-icon {
+    font-size: 2rem;
+    color: #3a3a3a; 
+    margin-top: 0.5rem;
+  }
+  
+  .timeline {
+    flex-grow: 1;
+    position: relative;
+    padding-left: 1rem;
+  }
+  
+  
+  
+  
+  

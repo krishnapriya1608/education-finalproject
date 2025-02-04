@@ -1,0 +1,68 @@
+.learning-page {
+    padding: 40px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #fdfbff, #ad6ec0);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header {
+    margin-bottom: 60px;
+  }
+  
+  .header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ff6464;
+    margin-bottom: 20px;
+  }
+  
+  .header p {
+    font-size: 1rem;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    line-height: 1.5;
+  }
+  
+  .btn-learn-more {
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+  }
+  
+  .btn-learn-more:hover {
+    background: #555;
+    transform: scale(1.05);
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .watch-now {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  
+  .watch-now img {
+    width: 30px;
+    height: 30px;
+  }
+  

@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header nav ul li {
+    cursor: pointer;
+  }
+  
+  .header .actions button {
+    margin-left: 10px;
+    padding: 5px 10px;
+  }
+  
+  .header .actions .signup {
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

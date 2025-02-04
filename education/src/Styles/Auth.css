@@ -1,0 +1,249 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Set min-height to 100vh to fill the viewport */
+  background: black;
+  font-family: Arial, sans-serif;
+  background-image: url(https://assets.website-files.com/62ce572e448ae60684f0d244/62ce5c62fd06b367f8e2a39f_faq.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  animation: bounce 2s infinite; /* Add animation to the background */
+}
+
+@keyframes bounce {
+  0% {
+      background-position: 0 0;
+  }
+  25% {
+      background-position: 0 -20px; /* Move the background image upwards */
+  }
+  50% {
+      background-position: 0 0; /* Return to original position */
+  }
+  75% {
+      background-position: 0 20px; /* Move the background image downwards */
+  }
+  100% {
+      background-position: 0 0; /* Return to original position */
+  }
+}
+
+  /* Rest of your CSS styles */
+  
+  .screen {
+    width: 300px;
+    height: 600px;
+    margin: 0 10px;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    height: auto;
+    max-height: 100%;
+  }
+  
+  .intro-screen {
+    background: url('path-to-your-leaf-background.jpg') no-repeat center/cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .login-screen,
+  .register-screen {
+    padding: 20px;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button.btn {
+    background: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button.btn:hover {
+    background: #388e3c;
+  }
+  
+  span {
+    color: #4caf50;
+    cursor: pointer;
+  }
+  
+  span:hover {
+    text-decoration: underline;
+  }
+  .dashboard {
+    min-height: 100vh;
+    background-color: #181818;
+
+    color: #fff;
+    font-family: sans-serif; 
+  }
+  
+  .top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #242424;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #5090c0; 
+  }
+  
+  .search-bar {
+    flex: 1;
+    margin: 0 1rem;
+    position: relative; 
+  }
+  
+  .search-bar input {
+    background-color: #303030;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    width: 100%;
+  }
+  
+  .search-bar svg {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    color: #808080;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-info img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-grow: 1;
+  }
+  
+  .left-sidebar {
+    width: 40px;
+    background-color: #282828;
+    padding: 1rem;
+    
+
+  }
+  
+  .right-content {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .hero-section {
+    background-color: #3a7f7c;
+    padding: 2rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    text-align: center;
+    display: flex;
+  }
+  
+  .hero-section h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-section p {
+    margin-bottom: 1.5rem;
+  }
+  
+  .create-course-btn {
+    background-color: #5090c0;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .stats-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns for stats */
+    grid-gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .stat {
+    background-color: #202020;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .course-sections {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem;
+  }
+  
+  .course-section {
+    background-color: #202020;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  .course-section h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .course-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .course-section li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  

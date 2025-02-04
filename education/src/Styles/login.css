@@ -1,0 +1,143 @@
+/* Main Container */
+.login-container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #ab8dc0, #4a148c);
+  }
+  
+  /* Login/Register Box */
+  .login-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .underline {
+    width: 50px;
+    height: 3px;
+    background-color: purple;
+    margin-bottom: 20px;
+  }
+  
+  /* Toggle Buttons */
+  .toggle-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .toggle-buttons button {
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: gray;
+  }
+  
+  .toggle-buttons .active {
+    color: purple;
+    font-weight: bold;
+    border-bottom: 3px solid purple;
+  }
+  
+  /* Input Fields */
+  .input-container {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .input-container i {
+    margin-right: 10px;
+    color: #777;
+  }
+  
+  input,
+  select {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  /* Forgot Password */
+  .forgot-password {
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    color: purple;
+    text-decoration: none;
+    margin-bottom: 15px;
+  }
+  
+  /* Submit Button */
+  .login-btn {
+    width: 100%;
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Message */
+  .message {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: red;
+  }
+  
+  /* Signup Switch */
+  .signup-text {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .signup-text a {
+    color: purple;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Side Banner */
+  .side-banner {
+    width: 480px;
+    height: 700px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 220px;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    background: url("https://png.pngtree.com/png-vector/20220525/ourmid/pngtree-content-creator-background-vector-illustration-of-freelancer-blogger-and-video-vlogger-png-image_4726834.png");
+    background-repeat: no-repeat;
+  }
+  
+  .side-banner h2 {
+    font-size: 22px;
+  }
+  
+  .side-banner p {
+    font-size: 14px;
+  }
+  
